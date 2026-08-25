@@ -1,0 +1,259 @@
+{
+  "header": {
+    "solutions": "Solutions",
+    "contact": "Contact",
+    "language": "Español",
+    "languageFlag": "🇲🇽",
+    "cart": "Cart"
+  },
+  "footer": {
+    "description": "Turning your ideas into technological solutions.",
+    "legalTitle": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms and Conditions",
+    "refund": "Refund and Return Policy",
+    "contactTitle": "Contact",
+    "email": "tecnoredmx.com.mx",
+    "phone": "55 5547 3881",
+    "location": "Mexico City, Mexico",
+    "rights": "All rights reserved."
+  },
+  "home": {
+    "hero": {
+      "title": "Technological innovation for your business",
+      "subtitle": "At TecnoRED we design and develop digital solutions that take your company to the next level.",
+      "cta": "Discover how"
+    },
+    "services": {
+      "title": "Our Services",
+      "websiteDesign": "Web Design",
+      "websiteDesignDesc": "We create all kinds of websites and digital platforms, from landings to complete corporate portals.",
+      "websiteDesignFull": "Your website is the gateway to your business. At TecnoRED we create digital experiences that captivate your visitors and turn them into customers.",
+      "styleGuide": "Visual Identity",
+      "styleGuideDesc": "We build your digital identity with style guides that unify all your platforms.",
+      "contentStrategy": "Content Strategy",
+      "contentStrategyDesc": "We position your company as a thought leader in the technology sector.",
+      "webDev": "Web & App Development",
+      "webDevDesc": "We develop high-performance web platforms and mobile applications.",
+      "customCreation": "Custom Development",
+      "customCreationDesc": "We create custom software that perfectly adapts to your business processes.",
+      "premadeTemplate": "Premium Templates",
+      "premadeTemplateDesc": "We select, customize and implement top-tier templates optimized for performance.",
+      "maintenance": "Maintenance and Support",
+      "maintenanceDesc": "We ensure your applications remain fast, secure and relevant."
+    },
+    "about": {
+      "title": "About Us",
+      "content": "TecnoRED is a company specialized in custom digital solutions. We help companies and entrepreneurs build their digital presence, optimize their processes and connect with their customers effectively."
+    },
+    "mission": {
+      "title": "Mission",
+      "content": "To empower companies through innovative technological solutions that strengthen their digital presence."
+    },
+    "vision": {
+      "title": "Vision",
+      "content": "To be leaders in digital solutions in Mexico and Latin America."
+    },
+    "values": {
+      "title": "Values",
+      "innovation": "Innovation: We explore new ways to optimize the digital experience.",
+      "commitment": "Commitment: We achieve goals with seriousness and dedication.",
+      "quality": "Quality: We deliver functional and secure projects.",
+      "accessibility": "Accessibility: Flexible plans for all budgets.",
+      "collaboration": "Collaboration: We work hand in hand with our clients.",
+      "transparency": "Transparency: Clear communication in every process."
+    },
+    "distinguish": {
+      "title": "What Sets Us Apart",
+      "content": "We are a team of experts passionate about software design and development. We believe that well-designed software has the power to optimize processes, generate value and open new possibilities."
+    },
+    "objective": {
+      "title": "Our Objective",
+      "content": "To empower companies of all sizes with innovative and scalable solutions.",
+      "subtitle": "To be the preferred technology partner for companies seeking excellence and innovation."
+    },
+    "cta": {
+      "title": "Ready to transform your business?",
+      "button": "Get a quote"
+    }
+  },
+  "solutions": {
+    "hero": {
+      "title": "Digital Solutions",
+      "content": "Complete portfolio of design and development services to address your digital challenges.",
+      "cta": "Get a quote"
+    },
+    "servicesTitle": "Services & Packages",
+    "uxuiTitle": "UX/UI Design",
+    "devTitle": "Web & App Development",
+    "packagesTitle": "Service Packages",
+    "contract": "HIRE NOW",
+    "iva": "VAT",
+    "vat": "VAT",
+    "mxn": "MXN",
+    "customProduct": {
+      "title": "Custom Project",
+      "desc": "Do you need a platform tailored to you? Request a quote from our team.",
+      "ctaQuote": "Get a quote",
+      "ctaPay": "Pay"
+    },
+    "customProductPage": {
+      "title": "Project from Scratch",
+      "subtitle": "Do you have a brilliant idea? Our Development from Scratch service is the bridge between your concept and a robust application.",
+      "desc": "Don't settle for pre-designed solutions. We create software that adapts to your processes.",
+      "quoteNumber": "Quote Number",
+      "quotePlaceholder": "Enter your quote number",
+      "investment": "Investment (16% VAT will be applied)",
+      "quantity": "Quantity",
+      "addToCart": "Add to cart",
+      "addedToCart": "have been added to your cart",
+      "viewCart": "View cart",
+      "validation": {
+        "quoteRequired": "Quote number is required",
+        "investmentRequired": "Investment is required",
+        "investmentInvalid": "Investment must be greater than 0.00"
+      }
+    },
+    "services": {
+      "uxuiBasic": { "title": "Basic Interface Design", "desc": "Prototyping, mockups and style guide.", "price": 13500 },
+      "uxuiStandard": { "title": "Complete Interface Design", "desc": "Prototyping, mockups, style guide, user testing, responsive adaptations.", "price": 22700 },
+      "uxuiRedesign": { "title": "Interface Redesign", "desc": "Review existing system, propose improvements, user testing.", "price": 30000 },
+      "webStatic": { "title": "Static Corporate Site", "desc": "Fixed content pages without complex backend, responsive.", "price": 13800 },
+      "webDynamic": { "title": "Dynamic Site / CMS", "desc": "CMS integration, forms, admin panel.", "price": 19600 },
+      "ecommerce": { "title": "Basic E-commerce", "desc": "Catalog, cart, payment gateway, shipping.", "price": 25100 },
+      "appSimple": { "title": "Simple Mobile App", "desc": "Hybrid or native app with basic functions.", "price": 45000 },
+      "appComplex": { "title": "Complex Mobile App", "desc": "More screens, geolocation, push notifications.", "price": 80100 },
+      "apiIntegration": { "title": "API Integration", "desc": "Connection with APIs, payments, maps, external systems.", "price": 10000 }
+    },
+    "packages": {
+      "landingUltra": { "title": "Ultra Basic Landing Page", "desc": "Single section with contact information or temporary promotion.", "price": 100 },
+      "pageSimple": { "title": "Simple Informative Page", "desc": "Up to 2 pages, responsive, adjusted template.", "price": 3250 },
+      "digitalCard": { "title": "Digital Card", "desc": "One screen with QR, logo, contact information.", "price": 500 },
+      "landingPromo": { "title": "Promotional Landing", "desc": "Page with capture form and email integration.", "price": 2500 },
+      "onePage": { "title": "Professional One Page", "desc": "Single section with blocks: home, services, testimonials, contact.", "price": 4850 },
+      "catalog": { "title": "Online Catalog", "desc": "Displays products with search and cards, without cart.", "price": 7580 },
+      "blog": { "title": "Professional Blog", "desc": "CMS integration, categories, search, comments.", "price": 9120 },
+      "institutional": { "title": "Institutional Site", "desc": "Home, About, Services, News, Contact.", "price": 12460 }
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Need a quote? Contact us!",
+      "subtitle": "Multiple contact channels, our team will be happy to assist you."
+    },
+    "info": {
+      "title": "Contact Information",
+      "emailLabel": "Email",
+      "email": "tecnoredmx.com.mx",
+      "phoneLabel": "Phone",
+      "phone": "55 5547 3881",
+      "addressLabel": "Address",
+      "address": "Mexico City, Mexico",
+      "paymentMethods": "Accepted payment methods:"
+    },
+    "form": {
+      "title": "Contact",
+      "name": "Full Name *",
+      "company": "Company *",
+      "email": "Email *",
+      "phone": "Phone *",
+      "message": "How can we help you? *",
+      "submit": "Submit",
+      "success": "Your information has been sent. You will receive our response shortly.",
+      "error": "We couldn't send your message. Please try again."
+    }
+  },
+  "cart": {
+    "title": "Cart",
+    "products": "Cart Products",
+    "product": "Product",
+    "total": "Total",
+    "totals": "Cart Totals",
+    "coupon": "Add Coupon",
+    "couponCode": "Enter code",
+    "couponApply": "Apply",
+    "couponInvalid": "Invalid coupon code",
+    "subtotal": "Subtotal",
+    "iva": "VAT (16%)",
+    "estimatedTotal": "Estimated Total",
+    "checkout": "Checkout",
+    "empty": "Your cart is empty",
+    "emptyDesc": "Add some services to get started",
+    "continueShopping": "Continue shopping",
+    "remove": "Remove",
+    "itemAdded": "Item added to cart",
+    "each": "each",
+    "quoteNumber": "Quote number"
+  },
+  "payment": {
+    "title": "Billing Details",
+    "name": "First Name *",
+    "lastname": "Last Name *",
+    "country": "Country / Region *",
+    "address": "Address *",
+    "addressPlaceholder": "Street name and number",
+    "address2": "Apartment, suite, etc. (optional)",
+    "address2Placeholder": "Apartment, suite, etc.",
+    "city": "City *",
+    "state": "State / Province *",
+    "zip": "ZIP / Postal Code *",
+    "phone": "Phone (optional)",
+    "email": "Email *",
+    "notes": "Order Notes (optional)",
+    "notesPlaceholder": "Notes about your order",
+    "orderSummary": "Your Order",
+    "product": "Product",
+    "subtotal": "Subtotal",
+    "iva": "VAT (16%)",
+    "total": "Total",
+    "coupon": "Have a coupon? Click here",
+    "cardTitle": "Credit or Debit Card",
+    "securePayments": "Secure payments with",
+    "cardName": "Name on Card",
+    "cardNumber": "Card Number",
+    "cardExpiry": "MM/YY",
+    "cardCvc": "CVC",
+    "submit": "Place Order",
+    "privacy": "privacy policy",
+    "privacyText": "Your information will be used to process your order according to our",
+    "mexico": "Mexico",
+    "success": "Payment processed successfully",
+    "error": "Error processing payment",
+    "validation": {
+      "nameRequired": "First name is required",
+      "lastnameRequired": "Last name is required",
+      "addressRequired": "Address is required",
+      "cityRequired": "City is required",
+      "stateRequired": "State is required",
+      "zipRequired": "ZIP code is required",
+      "zipFormat": "ZIP code must be 5 digits",
+      "emailRequired": "Email is required",
+      "emailFormat": "Email is not valid",
+      "phoneFormat": "Phone must contain only numbers",
+      "cardNameRequired": "Name on card is required",
+      "cardNumberRequired": "Card number is required",
+      "cardNumberFormat": "Card number is not valid",
+      "cardExpiryRequired": "Expiry date is required",
+      "cardCvcRequired": "CVC is required",
+      "cardCvcFormat": "CVC must be 3 or 4 digits"
+    }
+  },
+  "success": {
+    "title": "Payment Successful!",
+    "subtitle": "Your order has been processed successfully",
+    "orderNumber": "Order Number",
+    "amount": "Amount",
+    "email": "A confirmation email has been sent to",
+    "continue": "Continue Shopping"
+  },
+  "legal": {
+    "comingSoon": "Coming Soon",
+    "description": "We are working on the content for this section."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "back": "Go back"
+  }
+}

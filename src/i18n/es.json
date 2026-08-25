@@ -1,0 +1,259 @@
+{
+  "header": {
+    "solutions": "Soluciones",
+    "contact": "Contacto",
+    "language": "English",
+    "languageFlag": "🇺🇸",
+    "cart": "Carrito"
+  },
+  "footer": {
+    "description": "Convertimos tus ideas en soluciones tecnológicas.",
+    "legalTitle": "Legal",
+    "privacy": "Aviso de Privacidad",
+    "terms": "Términos y Condiciones",
+    "refund": "Política de Reembolsos y Devoluciones",
+    "contactTitle": "Contacto",
+    "email": "tecnoredmx.com.mx",
+    "phone": "55 5547 3881",
+    "location": "CDMX, México",
+    "rights": "Todos los derechos reservados."
+  },
+  "home": {
+    "hero": {
+      "title": "Innovación tecnológica para tu negocio",
+      "subtitle": "En TecnoRED diseñamos y desarrollamos soluciones digitales que impulsan tu empresa al siguiente nivel.",
+      "cta": "Descubre cómo"
+    },
+    "services": {
+      "title": "Nuestros Servicios",
+      "websiteDesign": "Diseño Web",
+      "websiteDesignDesc": "Creamos sitios web y plataformas digitales de todo tipo, desde landings hasta portales corporativos completos.",
+      "websiteDesignFull": "Tu sitio web es la puerta de entrada a tu negocio. En TecnoRED creamos experiencias digitales que cautivan a tus visitantes y los convierten en clientes.",
+      "styleGuide": "Identidad Visual",
+      "styleGuideDesc": "Construimos tu identidad digital con manuales de estilo que unifican todas tus plataformas.",
+      "contentStrategy": "Estrategia de Contenido",
+      "contentStrategyDesc": "Posicionamos tu empresa como líder de pensamiento en el sector tecnológico.",
+      "webDev": "Desarrollo Web & Apps",
+      "webDevDesc": "Desarrollamos plataformas web y aplicaciones móviles de alto rendimiento.",
+      "customCreation": "Desarrollo a Medida",
+      "customCreationDesc": "Creamos software personalizado que se adapta perfectamente a tus procesos de negocio.",
+      "premadeTemplate": "Plantillas Premium",
+      "premadeTemplateDesc": "Seleccionamos, personalizamos e implementamos plantillas de primera línea optimizadas para el rendimiento.",
+      "maintenance": "Mantenimiento y Soporte",
+      "maintenanceDesc": "Garantizamos que tus aplicaciones sigan siendo rápidas, seguras y relevantes."
+    },
+    "about": {
+      "title": "Quiénes Somos",
+      "content": "TecnoRED es una empresa especializada en soluciones digitales a la medida. Ayudamos a empresas y emprendedores a construir su presencia digital, optimizar sus procesos y conectar con sus clientes de manera efectiva."
+    },
+    "mission": {
+      "title": "Misión",
+      "content": "Impulsar a las empresas mediante soluciones tecnológicas innovadoras que fortalezcan su presencia digital."
+    },
+    "vision": {
+      "title": "Visión",
+      "content": "Ser referentes en soluciones digitales en México y Latinoamérica."
+    },
+    "values": {
+      "title": "Valores",
+      "innovation": "Innovación: Exploramos nuevas formas de optimizar la experiencia digital.",
+      "commitment": "Compromiso: Cumplimos objetivos con seriedad y dedicación.",
+      "quality": "Calidad: Entregamos proyectos funcionales y seguros.",
+      "accessibility": "Accesibilidad: Planes flexibles para todos los presupuestos.",
+      "collaboration": "Colaboración: Trabajamos mano a mano con nuestros clientes.",
+      "transparency": "Transparencia: Comunicación clara en cada proceso."
+    },
+    "distinguish": {
+      "title": "Lo que nos distingue",
+      "content": "Somos un equipo de expertos apasionados por el diseño y desarrollo de software. Creemos que el software bien diseñado tiene el poder de optimizar procesos, generar valor y abrir nuevas posibilidades."
+    },
+    "objective": {
+      "title": "Nuestro Objetivo",
+      "content": "Empoderar a empresas de todos los tamaños con soluciones innovadoras y escalables.",
+      "subtitle": "Ser el socio tecnológico preferido por empresas que buscan excelencia e innovación."
+    },
+    "cta": {
+      "title": "¿Listo para transformar tu negocio?",
+      "button": "Cotizar ahora"
+    }
+  },
+  "solutions": {
+    "hero": {
+      "title": "Soluciones Digitales",
+      "content": "Portafolio completo de servicios de diseño y desarrollo para abordar tus desafíos digitales.",
+      "cta": "Cotizar"
+    },
+    "servicesTitle": "Servicios & Paquetes",
+    "uxuiTitle": "Diseño UX/UI",
+    "devTitle": "Desarrollo Web & Apps",
+    "packagesTitle": "Paquetes de Servicios",
+    "contract": "CONTRATAR",
+    "iva": "IVA",
+    "vat": "VAT",
+    "mxn": "MXN",
+    "customProduct": {
+      "title": "Proyecto Personalizado",
+      "desc": "¿Necesitas una plataforma a tu medida? Solicita una cotización a nuestro equipo.",
+      "ctaQuote": "Cotizar ahora",
+      "ctaPay": "Pagar"
+    },
+    "customProductPage": {
+      "title": "Proyecto desde cero",
+      "subtitle": "¿Tienes una idea brillante? Nuestro servicio de Desarrollo desde Cero es el puente entre tu concepto y una aplicación robusta.",
+      "desc": "No te conformes con soluciones prediseñadas. Creamos el software que se adapta a tus procesos.",
+      "quoteNumber": "Número de cotización",
+      "quotePlaceholder": "Ingresa tu folio de cotización",
+      "investment": "Inversión (se aplicará 16% de IVA)",
+      "quantity": "Cantidad",
+      "addToCart": "Añadir al carrito",
+      "addedToCart": "han sido añadidos a tu carrito",
+      "viewCart": "Ver carrito",
+      "validation": {
+        "quoteRequired": "El número de cotización es requerido",
+        "investmentRequired": "La inversión es requerida",
+        "investmentInvalid": "La inversión debe ser mayor a 0.00"
+      }
+    },
+    "services": {
+      "uxuiBasic": { "title": "Diseño de interfaz básico", "desc": "Prototipado, mockups y guía de estilo.", "price": 13500 },
+      "uxuiStandard": { "title": "Diseño de interfaz completo", "desc": "Prototipado, mockups, guía de estilo, pruebas de usuario, adaptaciones responsivas.", "price": 22700 },
+      "uxuiRedesign": { "title": "Rediseño de interfaz", "desc": "Revisar sistema existente, proponer mejoras, pruebas con usuarios.", "price": 30000 },
+      "webStatic": { "title": "Sitio corporativo estático", "desc": "Páginas de contenido fijo sin backend complejo, responsive.", "price": 13800 },
+      "webDynamic": { "title": "Sitio dinámico / CMS", "desc": "Integración con CMS, formularios, panel de administración.", "price": 19600 },
+      "ecommerce": { "title": "E-commerce básico", "desc": "Catálogo, carrito, pasarela de pago, envíos.", "price": 25100 },
+      "appSimple": { "title": "App móvil sencilla", "desc": "App híbrida o nativa con funciones básicas.", "price": 45000 },
+      "appComplex": { "title": "App móvil compleja", "desc": "Más pantallas, geolocalización, notificaciones push.", "price": 80100 },
+      "apiIntegration": { "title": "Integración de APIs", "desc": "Conexión con APIs, pagos, mapas, sistemas externos.", "price": 10000 }
+    },
+    "packages": {
+      "landingUltra": { "title": "Landing Page Ultra básica", "desc": "Una sola sección con información de contacto o promoción temporal.", "price": 100 },
+      "pageSimple": { "title": "Página informativa simple", "desc": "Hasta 2 páginas, responsive, plantilla ajustada.", "price": 3250 },
+      "digitalCard": { "title": "Tarjeta digital", "desc": "Una pantalla con QR, logo, datos de contacto.", "price": 500 },
+      "landingPromo": { "title": "Landing de promoción", "desc": "Página con formulario de captura e integración a correo.", "price": 2500 },
+      "onePage": { "title": "One Page profesional", "desc": "Sección única con bloques: inicio, servicios, testimonios, contacto.", "price": 4850 },
+      "catalog": { "title": "Catálogo online", "desc": "Muestra productos con buscador y fichas, sin carrito.", "price": 7580 },
+      "blog": { "title": "Blog profesional", "desc": "Integración a CMS, categorías, buscador, comentarios.", "price": 9120 },
+      "institutional": { "title": "Sitio institucional", "desc": "Inicio, Nosotros, Servicios, Noticias, Contacto.", "price": 12460 }
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "¿Necesitas una cotización? ¡Contáctanos!",
+      "subtitle": "Múltiples canales de contacto, nuestro equipo estará feliz de atenderte."
+    },
+    "info": {
+      "title": "Información de Contacto",
+      "emailLabel": "Email",
+      "email": "tecnoredmx.com.mx",
+      "phoneLabel": "Teléfono",
+      "phone": "55 5547 3881",
+      "addressLabel": "Dirección",
+      "address": "CDMX, México",
+      "paymentMethods": "Métodos de pago aceptados:"
+    },
+    "form": {
+      "title": "Contacto",
+      "name": "Nombre completo *",
+      "company": "Compañía *",
+      "email": "Email *",
+      "phone": "Teléfono *",
+      "message": "¿En qué podemos ayudarte? *",
+      "submit": "Enviar",
+      "success": "Tu información fue enviada. Pronto recibirás nuestra respuesta.",
+      "error": "No pudimos enviar tu mensaje. Vuelve a probar."
+    }
+  },
+  "cart": {
+    "title": "Carrito",
+    "products": "Productos del carrito",
+    "product": "Producto",
+    "total": "Total",
+    "totals": "Totales del carrito",
+    "coupon": "Añadir cupones",
+    "couponCode": "Introduce el código",
+    "couponApply": "Aplicar",
+    "couponInvalid": "Código de cupón inválido",
+    "subtotal": "Subtotal",
+    "iva": "IVA (16%)",
+    "estimatedTotal": "Total estimado",
+    "checkout": "Finalizar compra",
+    "empty": "Tu carrito está vacío",
+    "emptyDesc": "Agrega algunos servicios para comenzar",
+    "continueShopping": "Seguir comprando",
+    "remove": "Eliminar",
+    "itemAdded": "Producto agregado al carrito",
+    "each": "c/u",
+    "quoteNumber": "N° de cotización"
+  },
+  "payment": {
+    "title": "Detalles de facturación",
+    "name": "Nombre *",
+    "lastname": "Apellidos *",
+    "country": "País / Región *",
+    "address": "Dirección *",
+    "addressPlaceholder": "Nombre de la calle y número",
+    "address2": "Apartamento, habitación, etc. (opcional)",
+    "address2Placeholder": "Apartamento, habitación, etc.",
+    "city": "Población *",
+    "state": "Región / Provincia *",
+    "zip": "Código postal / ZIP *",
+    "phone": "Teléfono (opcional)",
+    "email": "Email *",
+    "notes": "Notas del pedido (opcional)",
+    "notesPlaceholder": "Notas sobre tu pedido",
+    "orderSummary": "Tu pedido",
+    "product": "Producto",
+    "subtotal": "Subtotal",
+    "iva": "IVA (16%)",
+    "total": "Total",
+    "coupon": "¿Tienes un cupón? Haz clic aquí",
+    "cardTitle": "Tarjeta de Crédito o débito",
+    "securePayments": "Pagos seguros con",
+    "cardName": "Nombre en la tarjeta",
+    "cardNumber": "Número de tarjeta",
+    "cardExpiry": "MM/AA",
+    "cardCvc": "CVC",
+    "submit": "Realizar el pedido",
+    "privacy": "política de privacidad",
+    "privacyText": "Tu información será utilizada para procesar tu pedido conforme a nuestra",
+    "mexico": "México",
+    "success": "Pago procesado correctamente",
+    "error": "Error al procesar el pago",
+    "validation": {
+      "nameRequired": "El nombre es requerido",
+      "lastnameRequired": "Los apellidos son requeridos",
+      "addressRequired": "La dirección es requerida",
+      "cityRequired": "La población es requerida",
+      "stateRequired": "La región es requerida",
+      "zipRequired": "El código postal es requerido",
+      "zipFormat": "El código postal debe tener 5 dígitos",
+      "emailRequired": "El email es requerido",
+      "emailFormat": "El email no es válido",
+      "phoneFormat": "El teléfono solo debe contener números",
+      "cardNameRequired": "El nombre en la tarjeta es requerido",
+      "cardNumberRequired": "El número de tarjeta es requerido",
+      "cardNumberFormat": "El número de tarjeta no es válido",
+      "cardExpiryRequired": "La fecha de expiración es requerida",
+      "cardCvcRequired": "El CVC es requerido",
+      "cardCvcFormat": "El CVC debe tener 3 o 4 dígitos"
+    }
+  },
+  "success": {
+    "title": "¡Pago Exitoso!",
+    "subtitle": "Tu pedido ha sido procesado correctamente",
+    "orderNumber": "Número de orden",
+    "amount": "Monto",
+    "email": "Se ha enviado un correo de confirmación a",
+    "continue": "Seguir comprando"
+  },
+  "legal": {
+    "comingSoon": "Contenido próximamente",
+    "description": "Estamos trabajando en el contenido de esta sección."
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "retry": "Reintentar",
+    "back": "Volver"
+  }
+}
