@@ -15,7 +15,7 @@
     "contactTitle": "Contact",
     "email": "tecnoredmx.com.mx",
     "phone": "55 5547 3881",
-    "location": "Mexico City, Mexico",
+    "location": "Av. Río Consulado Circuito Interior, N°516, Office 102, Col. Tlatilco, Azcapotzalco, CDMX",
     "rights": "All rights reserved."
   },
   "home": {
@@ -148,7 +148,7 @@
       "phoneLabel": "Phone",
       "phone": "55 5547 3881",
       "addressLabel": "Address",
-      "address": "Mexico City, Mexico",
+      "address": "AV. RIO CONSULADO CIRCUITO INTERIOR, N°516, OFFICE 102, COLONIA TLATILCO, ALCALDIA AZCAPOTZALCO, C.P. 02860, MEXICO CITY.",
       "paymentMethods": "Accepted payment methods:"
     },
     "form": {
