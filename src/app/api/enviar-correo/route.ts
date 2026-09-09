@@ -15,12 +15,12 @@ export async function POST(request: Request) {
 
     const adminEmail = process.env.ADMIN_EMAIL;
     const adminEmail2 = process.env.ADMIN_EMAIL_2;
-    const redirectionEmail = process.env.REDIRECTION_EMAIL;
+    //const redirectionEmail = process.env.REDIRECTION_EMAIL;
 
     // Lista completa de destinatarios del forward (sin CC)
-    const forwardRecipients: string[] = [adminEmail, adminEmail2, redirectionEmail]
-      .filter((email): email is string => Boolean(email))
-      .filter((email, index, arr) => arr.indexOf(email) === index);
+    const forwardRecipients: string[] = [adminEmail, adminEmail2]
+       .filter((email): email is string => Boolean(email))
+  .filter((email, index, arr) => arr.indexOf(email) === index);
 
     console.log('  • Destinatarios forward:', forwardRecipients);
 
