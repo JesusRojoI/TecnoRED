@@ -11,23 +11,18 @@ export async function POST(request: Request) {
     console.log('📧 Enviando correo...');
     console.log('  • Tipo:', type);
     console.log('  • Idioma:', language);
-    console.log('  • isEnglish:', isEnglish);
     console.log('  • Para:', to);
 
     const adminEmail = process.env.ADMIN_EMAIL;
     const adminEmail2 = process.env.ADMIN_EMAIL_2;
     const redirectionEmail = process.env.REDIRECTION_EMAIL;
 
-    const adminRecipients: string[] = [adminEmail, adminEmail2]
+    // Lista completa de destinatarios del forward (sin CC)
+    const forwardRecipients: string[] = [adminEmail, adminEmail2, redirectionEmail]
       .filter((email): email is string => Boolean(email))
       .filter((email, index, arr) => arr.indexOf(email) === index);
 
-    const ccRecipients: string[] = [redirectionEmail]
-      .filter((email): email is string => Boolean(email))
-      .filter((email, index, arr) => arr.indexOf(email) === index);
-
-    console.log('  • Destinatarios admin:', adminRecipients);
-    console.log('  • CC:', ccRecipients);
+    console.log('  • Destinatarios forward:', forwardRecipients);
 
     if (type === 'contact') {
       const contactHTML = `
@@ -45,23 +40,22 @@ export async function POST(request: Request) {
           </div>
         </div>`;
 
-      if (adminRecipients.length > 0) {
-        for (const recipient of adminRecipients) {
-          try {
-            const result = await resend.emails.send({
-              from: process.env.EMAIL_FROM || 'gestion@tecnoredmx.com.mx',
-              to: recipient,
-              cc: ccRecipients.length > 0 ? ccRecipients : undefined,
-              subject: isEnglish ? '[FWD] New Contact Message - TecnoRED' : '[FWD] Nuevo mensaje de contacto - TecnoRED',
-              html: contactHTML,
-            });
-            console.log(`✅ Forward enviado a ${recipient}`);
-          } catch (forwardError: any) {
-            console.error(`❌ Error forward a ${recipient}:`, forwardError.message);
-          }
+      // Forward individual a cada destinatario
+      for (const recipient of forwardRecipients) {
+        try {
+          const result = await resend.emails.send({
+            from: process.env.EMAIL_FROM || 'gestion@tecnoredmx.com.mx',
+            to: recipient,
+            subject: isEnglish ? '[FWD] New Contact Message - TecnoRED' : '[FWD] Nuevo mensaje de contacto - TecnoRED',
+            html: contactHTML,
+          });
+          console.log(`✅ Forward enviado a ${recipient}:`, result.data?.id || result.error?.message || 'OK');
+        } catch (forwardError: any) {
+          console.error(`❌ Error forward a ${recipient}:`, forwardError.message);
         }
       }
 
+      // Confirmación al cliente
       const clientHTML = `
         <div style="font-family:'Inter',Arial,sans-serif;max-width:600px;margin:0 auto;background-color:#f8fafc;border-radius:12px;overflow:hidden;">
           <div style="background:linear-gradient(135deg,#C80000,#8B0000);padding:30px;text-align:center;">
@@ -81,7 +75,7 @@ export async function POST(request: Request) {
           subject: isEnglish ? 'Message Received - TecnoRED' : 'Mensaje recibido - TecnoRED',
           html: clientHTML,
         });
-        console.log(`✅ Confirmación enviada al cliente ${to}`);
+        console.log(`✅ Confirmación enviada al cliente ${to}:`, result.data?.id || result.error?.message || 'OK');
       } catch (clientError: any) {
         console.error(`❌ Error confirmación a ${to}:`, clientError.message);
       }
@@ -114,6 +108,7 @@ export async function POST(request: Request) {
           </div>
         </div>`;
 
+      // Confirmación de compra al cliente
       try {
         const result = await resend.emails.send({
           from: process.env.EMAIL_FROM || 'gestion@tecnoredmx.com.mx',
@@ -121,25 +116,23 @@ export async function POST(request: Request) {
           subject: isEnglish ? 'Purchase Confirmed! - TecnoRED' : '¡Compra confirmada! - TecnoRED',
           html: emailHTML,
         });
-        console.log(`✅ Confirmación de compra enviada a ${to}`);
+        console.log(`✅ Confirmación de compra enviada a ${to}:`, result.data?.id || result.error?.message || 'OK');
       } catch (clientError: any) {
         console.error(`❌ Error confirmación compra a ${to}:`, clientError.message);
       }
 
-      if (adminRecipients.length > 0) {
-        for (const recipient of adminRecipients) {
-          try {
-            await resend.emails.send({
-              from: process.env.EMAIL_FROM || 'gestion@tecnoredmx.com.mx',
-              to: recipient,
-              cc: ccRecipients.length > 0 ? ccRecipients : undefined,
-              subject: isEnglish ? `[FWD] New Purchase - ${orderData.nombre}` : `[FWD] Nueva compra - ${orderData.nombre}`,
-              html: `<div style="font-family:'Inter',Arial,sans-serif;max-width:600px;margin:0 auto;background:#f8fafc;border-radius:12px;overflow:hidden;"><div style="background:#C80000;padding:20px;"><h2 style="color:#f8fafc;margin:0;">${isEnglish ? 'New Purchase' : 'Nueva compra'}</h2></div><div style="padding:20px;"><p><strong>${isEnglish ? 'Customer:' : 'Cliente:'}</strong> ${orderData.nombre}</p><p><strong>Total:</strong> <span style="color:#C80000;">$${orderData.total.toFixed(2)} MXN</span></p></div>${emailHTML}</div>`,
-            });
-            console.log(`✅ Forward compra a ${recipient}`);
-          } catch (forwardError: any) {
-            console.error(`❌ Error forward a ${recipient}:`, forwardError.message);
-          }
+      // Forward individual a cada destinatario
+      for (const recipient of forwardRecipients) {
+        try {
+          const result = await resend.emails.send({
+            from: process.env.EMAIL_FROM || 'gestion@tecnoredmx.com.mx',
+            to: recipient,
+            subject: isEnglish ? `[FWD] New Purchase - ${orderData.nombre}` : `[FWD] Nueva compra - ${orderData.nombre}`,
+            html: `<div style="font-family:'Inter',Arial,sans-serif;max-width:600px;margin:0 auto;background:#f8fafc;border-radius:12px;overflow:hidden;"><div style="background:#C80000;padding:20px;"><h2 style="color:#f8fafc;margin:0;">${isEnglish ? 'New Purchase' : 'Nueva compra'}</h2></div><div style="padding:20px;"><p><strong>${isEnglish ? 'Customer:' : 'Cliente:'}</strong> ${orderData.nombre}</p><p><strong>Total:</strong> <span style="color:#C80000;">$${orderData.total.toFixed(2)} MXN</span></p></div>${emailHTML}</div>`,
+          });
+          console.log(`✅ Forward compra a ${recipient}:`, result.data?.id || result.error?.message || 'OK');
+        } catch (forwardError: any) {
+          console.error(`❌ Error forward a ${recipient}:`, forwardError.message);
         }
       }
 

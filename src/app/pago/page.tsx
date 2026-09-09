@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { useRouter } from 'next/navigation';
@@ -20,8 +20,13 @@ export default function PagoPage() {
   });
   const [cardData, setCardData] = useState({ cardName: '', cardNumber: '', expiry: '', cvc: '' });
 
+  useEffect(() => {
+    if (state.items.length === 0) {
+      router.push('/cart');
+    }
+  }, [state.items.length, router]);
+
   if (state.items.length === 0) {
-    router.push('/cart');
     return null;
   }
 
@@ -195,11 +200,11 @@ export default function PagoPage() {
                 <div className="flex items-center justify-between mb-6">
                   <h2 className="font-rubik font-semibold text-xl text-text-primary">{t('payment.cardTitle')}</h2>
                   <div className="flex items-center gap-3 px-4 py-2">
-  <span className="font-inter text-xs text-text-secondary">{t('payment.securePayments')}</span>
-  <div className="relative w-20 h-8">
-    <Image src="/etomin_logo.svg" alt="Etomin" fill className="object-contain" />
-  </div>
-</div>
+                    <span className="font-inter text-xs text-text-secondary">{t('payment.securePayments')}</span>
+                    <div className="relative w-20 h-8">
+                      <Image src="/etomin_logo.svg" alt="Etomin" fill className="object-contain" />
+                    </div>
+                  </div>
                 </div>
                 <div className="space-y-5">
                   <div>
