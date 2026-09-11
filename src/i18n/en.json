@@ -7,17 +7,17 @@
     "cart": "Cart"
   },
   "footer": {
-    "description": "Turning your ideas into technological solutions.",
-    "legalTitle": "Legal",
-    "privacy": "Privacy Policy",
-    "terms": "Terms and Conditions",
-    "refund": "Refund and Return Policy",
-    "contactTitle": "Contact",
-    "email": "tecnoredmx.com.mx",
-    "phone": "55 5547 3881",
-    "location": "Av. Río Consulado Circuito Interior, N°516, Office 102, Col. Tlatilco, Azcapotzalco, CDMX",
-    "rights": "All rights reserved."
-  },
+  "description": "Turning your ideas into technological solutions.",
+  "legalTitle": "Legal",
+  "privacy": "Privacy Policy",
+  "terms": "Terms and Conditions",
+  "refund": "Refund and Return Policy",
+  "contactTitle": "Contact",
+  "email": "tecnoredmx.com.mx",
+  "phone": "55 5547 3881",
+  "location": "Mexico City, Mexico",
+  "rights": "All rights reserved."
+},
   "home": {
     "hero": {
       "title": "Technological innovation for your business",
@@ -255,5 +255,444 @@
     "error": "Error",
     "retry": "Retry",
     "back": "Go back"
+  },
+  "terms": {
+  "title": "Terms and Conditions",
+  "website": "Website: tecnoredmx.com.mx",
+  "email": "Email: info@tecnoredmx.com.mx",
+  "address": "Address: Av. Río Consulado Circuito Interior, N°516, Office 102, Colonia Tlatilco, Alcaldía Azcapotzalco, C.P. 02860, Mexico City",
+  "section1": {
+    "title": "1. PURPOSE AND SCOPE",
+    "content": "These terms govern the contracting and provision of software design, development and implementation services through tecnoredmx.com.mx. The services include requirements analysis, architecture design, application development, testing, implementation and initial technical support."
+  },
+  "section2": {
+    "title": "2. OBLIGATIONS OF THE PARTIES",
+    "providerTitle": "Obligations of the provider (TECNORED):",
+    "providerItems": [
+      "Develop the software in accordance with agreed specifications",
+      "Deliver the project within the established deadlines",
+      "Provide technical documentation and user manuals",
+      "Provide technical support during the period established in the contract",
+      "Maintain confidentiality regarding client information"
+    ],
+    "clientTitle": "Obligations of the client:",
+    "clientItems": [
+      "Provide complete and accurate information for the development",
+      "Make payments according to the agreed schedule",
+      "Assign technical personnel for project coordination",
+      "Provide access to systems when necessary for integration",
+      "Perform tests and validations within the established timeframes"
+    ]
+  },
+  "section3": {
+    "title": "3. DEADLINES AND DELIVERABLES",
+    "content": "Development times will be determined based on the complexity of each project and will be communicated to the client in advance. Deliverables may include, as applicable, source code, executables, technical documentation and user manuals. Any modification to the originally agreed scope may result in adjustments to delivery times and costs."
+  },
+  "section4": {
+    "title": "4. ECONOMIC CONDITIONS AND PAYMENT METHOD",
+    "pricesTitle": "4.1 Prices",
+    "pricesContent": "Prices are expressed in Mexican pesos (MXN) and are subject to the current VAT.",
+    "paymentTitle": "4.2 Payment Methods",
+    "paymentContent": "Payment may be made through the enabled platform, using credit card, debit card or other electronic methods indicated on the site at the time of purchase."
+  },
+  "section5": {
+    "title": "5. Intellectual Property",
+    "intro": "All intellectual property rights related to the developments, services and content generated through this site shall be governed by the following provisions:",
+    "items": [
+      "Exclusive developments: Once the corresponding total payment has been made and confirmed, the developments and code created specifically for the client shall become their property.",
+      "Third-party tools: The tools, frameworks, libraries and other general-use components employed in the development shall at all times maintain the original licenses of their respective owners, without implying any transfer of additional rights to the client.",
+      "Use restrictions: The client may not reproduce, sublicense, commercialize or distribute proprietary components without the prior written authorization of their respective owners.",
+      "Company rights: The company shall retain all rights over its methodologies, processes, technical knowledge and know-how used or developed during the provision of services."
+    ]
+  },
+  "section6": {
+    "title": "6. WARRANTY AND SUPPORT",
+    "warrantyTitle": "6.1 Warranty",
+    "warrantyItems": [
+      "A 90-day warranty is granted against programming defects after final delivery",
+      "The warranty covers only documented and reproducible programming errors",
+      "It does not cover requirement modifications or issues arising from changes in the client's technological environment"
+    ],
+    "supportTitle": "6.2 Technical Support",
+    "supportItems": [
+      "Support includes correction of documented errors and basic technical advice",
+      "Response time: 24-48 hours on business days",
+      "Support via email and scheduled phone calls"
+    ]
+  },
+  "section7": {
+    "title": "7. LIMITATION OF LIABILITY",
+    "items": [
+      "Liability is limited to the total amount paid for the service",
+      "No liability is assumed for indirect damages, loss of profit or information losses not directly attributable to defects in the developed software",
+      "The client is responsible for maintaining backups of their information",
+      "TECNORED is not responsible for service interruptions caused by third parties or force majeure"
+    ]
+  },
+  "section8": {
+    "title": "8. CONFIDENTIALITY AND DATA PROTECTION",
+    "items": [
+      "Both parties agree to maintain confidentiality regarding technical, commercial and strategic information",
+      "Personal data shall be treated in accordance with the Federal Law on Protection of Personal Data",
+      "Confidential information may not be disclosed for a period of 5 years after the conclusion of the project",
+      "Appropriate security measures shall be established to protect the information"
+    ]
+  },
+  "section9": {
+    "title": "9. CHANGES AND MODIFICATIONS",
+    "items": [
+      "Any modification must be agreed upon in writing",
+      "Changes in the project scope may imply adjustments in time and cost",
+      "A new quotation will be provided for significant modifications",
+      "Minor changes (less than 10% of the total value) will be included at no additional cost"
+    ]
+  },
+  "section10": {
+    "title": "10. DELIVERY AND ACCEPTANCE",
+    "items": [
+      "Delivery is considered completed when the software complies with the agreed specifications",
+      "The client has 15 business days to make post-delivery observations",
+      "Without observations within the established period, the deliverable is considered accepted",
+      "Observations must be specific, documented and related to the original specifications"
+    ]
+  },
+  "section11": {
+    "title": "11. FORCE MAJEURE",
+    "items": [
+      "Neither party shall be liable for non-compliance due to causes of force majeure",
+      "Force majeure causes include: natural disasters, pandemics, acts of authority, armed conflicts",
+      "The affected party must notify in writing within 5 days following the event"
+    ]
+  },
+  "section12": {
+    "title": "12. DISPUTE RESOLUTION",
+    "items": [
+      "Disputes shall be resolved through mediation in the first instance",
+      "If no agreement is reached, they shall be submitted to commercial arbitration",
+      "Current Mexican legislation shall apply",
+      "The competent courts shall be those of Mexico City"
+    ]
+  },
+  "section13": {
+    "title": "13. COMMUNICATIONS",
+    "items": [
+      "Official communications shall be made to the email: info@tecnoredmx.com.mx",
+      "Notices are considered delivered at the time of their sending",
+      "Changes to contact information must be notified in writing",
+      "A record of all project communications shall be maintained"
+    ]
+  },
+  "section14": {
+    "title": "14. GENERAL PROVISIONS",
+    "independenceTitle": "14.1 Independence of Clauses",
+    "independenceItems": [
+      "The nullity of any clause shall not affect the validity of the rest of the agreement",
+      "Null clauses shall be replaced by similar valid provisions"
+    ],
+    "totalityTitle": "14.2 Entirety of the Agreement",
+    "totalityItems": [
+      "These terms constitute the complete agreement between the parties",
+      "They prevail over any prior oral or written communication",
+      "They may only be modified by written agreement signed by both parties"
+    ],
+    "assignmentTitle": "14.3 Assignment of Rights",
+    "assignmentItems": [
+      "Rights and obligations may not be assigned without written consent",
+      "TECNORED may subcontract specialized services",
+      "The client will be notified of any relevant subcontracting"
+    ]
+  },
+  "section15": {
+    "title": "15. PRIVACY AND COOKIES POLICY",
+    "items": [
+      "Data collected through the website is used solely for the provision of services",
+      "Security measures are implemented to protect personal information",
+      "The website may use cookies to improve user experience",
+      "Users can configure their browser to reject cookies"
+    ]
+  },
+  "section16": {
+    "title": "16. CONTACT AND CUSTOMER SERVICE",
+    "intro": "For inquiries, technical support or clarifications:",
+    "items": [
+      "Email: info@tecnoredmx.com.mx",
+      "Website: tecnoredmx.com.mx",
+      "Service hours: Monday to Friday from 9:00 to 18:00 hours (Central Mexico Time)",
+      "Response time: 24-48 hours on business days"
+    ]
+  },
+  "lastUpdate": "Last updated: September 2026",
+  "acceptance": "By contracting our services, the client expressly accepts these terms and conditions."
+},
+"privacyPolicy": {
+  "title": "Privacy Policy",
+  "section1": {
+    "title": "I. IDENTIFICATION OF THE CONTROLLER",
+    "items": [
+      "Legal Name: ARC DI TRIOMPHE TECHNOLOGIES, S.A. DE C.V.",
+      "Trade Name: TecnoRED",
+      "Address: Av. Río Consulado Circuito Interior, N°516, Office 102, Colonia Tlatilco, Alcaldía Azcapotzalco, C.P. 02860, Mexico City",
+      "Website: tecnoredmx.com.mx",
+      "Privacy Contact: info@tecnoredmx.com.mx",
+      "Main Activity: Software design and development"
+    ]
+  },
+  "section2": {
+    "title": "II. PRIVACY PHILOSOPHY",
+    "intro": "At TecnoRED we understand that your data is valuable and deserves protection. Our commitment is based on:",
+    "transparencyTitle": "REAL TRANSPARENCY",
+    "transparency": "We clearly explain what data we collect, why and how we use it, without confusing or ambiguous terms.",
+    "controlTitle": "EFFECTIVE CONTROL",
+    "control": "You have the right to decide on the processing of your data with clear and accessible options.",
+    "minimizationTitle": "DATA MINIMIZATION",
+    "minimization": "We only collect the information strictly necessary to provide our services."
+  },
+  "section3": {
+    "title": "III. TYPES OF INFORMATION WE COLLECT",
+    "contactTitle": "CONTACT INFORMATION",
+    "contactItems": [
+      "First and last name",
+      "Email address",
+      "Company and general information (when applicable)"
+    ],
+    "projectTitle": "PROJECT INFORMATION",
+    "projectItems": [
+      "Requirements and specifications",
+      "Service-related communications",
+      "Shared documents and files",
+      "Interaction history"
+    ],
+    "technicalTitle": "TECHNICAL INFORMATION",
+    "technicalItems": [
+      "IP address",
+      "Browser and device type",
+      "Browsing data on our website",
+      "Usage information of our services"
+    ],
+    "commercialTitle": "COMMERCIAL INFORMATION",
+    "commercialItems": [
+      "Billing information",
+      "History of contracted services",
+      "Payment information",
+      "Contractual documentation"
+    ]
+  },
+  "section4": {
+    "title": "IV. HOW WE USE YOUR DATA",
+    "serviceTitle": "SERVICE PROVISION",
+    "serviceItems": [
+      "Develop and deliver the requested software solutions",
+      "Provide technical support and maintenance",
+      "Communicate about project progress",
+      "Resolve questions and technical issues"
+    ],
+    "managementTitle": "COMMERCIAL MANAGEMENT",
+    "managementItems": [
+      "Prepare quotes and proposals",
+      "Process payments and generate invoices",
+      "Maintain accounting and tax records",
+      "Manage contracts and agreements"
+    ],
+    "improvementTitle": "SERVICE IMPROVEMENT",
+    "improvementItems": [
+      "Optimize the experience on our website",
+      "Develop new functionalities",
+      "Analyze the quality of our services",
+      "Personalize our communications"
+    ],
+    "legalTitle": "LEGAL COMPLIANCE",
+    "legalItems": [
+      "Comply with tax obligations",
+      "Maintain records required by law",
+      "Respond to competent authorities",
+      "Protect our legal rights"
+    ]
+  },
+  "section5": {
+    "title": "V. LEGAL BASIS FOR PROCESSING",
+    "intro": "We process your personal data based on:",
+    "items": [
+      "Your consent: For promotional communications and non-essential analysis",
+      "Contract execution: To fulfill contracted services",
+      "Legitimate interest: To improve services and prevent fraud",
+      "Legal obligations: To comply with tax and regulatory provisions"
+    ]
+  },
+  "section6": {
+    "title": "VI. INFORMATION SHARING",
+    "content": "WITH AUTHORIZED THIRD PARTIES",
+    "items": [
+      "Technology service providers that help us operate",
+      "Technical collaborators under confidentiality agreements",
+      "Financial institutions for payment processing",
+      "Competent authorities when required by law"
+    ]
+  },
+  "section7": {
+    "title": "VII. DATA SECURITY",
+    "intro": "We implement appropriate technical and organizational measures to protect your information:",
+    "technicalTitle": "TECHNICAL MEASURES",
+    "technicalItems": [
+      "Encryption of sensitive data",
+      "Secure communications",
+      "Robust authentication systems",
+      "Continuous security monitoring"
+    ],
+    "organizationalTitle": "ORGANIZATIONAL MEASURES",
+    "organizationalItems": [
+      "Regular staff training",
+      "Internal security policies",
+      "Strict access controls",
+      "Incident response procedures"
+    ]
+  },
+  "section8": {
+    "title": "VIII. DATA RETENTION",
+    "intro": "We retain your personal information only for as long as necessary to:",
+    "items": [
+      "Fulfill the purposes for which it was collected",
+      "Satisfy legal and tax requirements",
+      "Resolve disputes and enforce our agreements"
+    ],
+    "footer": "Specific periods vary according to the type of information and purpose, but generally do not exceed the deadlines established by applicable legislation."
+  },
+  "section9": {
+    "title": "VIII. YOUR RIGHTS AS DATA SUBJECT",
+    "intro": "In accordance with the Federal Law on Protection of Personal Data Held by Private Parties, you have the right to:",
+    "items": [
+      "ACCESS: Know what personal data we have about you and the characteristics of the processing.",
+      "RECTIFICATION: Request correction of inaccurate or incomplete data.",
+      "CANCELLATION: Request deletion of your data when you consider they are not necessary.",
+      "OPPOSITION: Object to the processing of your data for specific purposes.",
+      "LIMITATION OF PROCESSING: Request that we limit the use of your data in certain circumstances.",
+      "PORTABILITY: Receive your data in a structured and commonly used format.",
+      "REVOCATION OF CONSENT: Withdraw your consent at any time for processing that requires it."
+    ]
+  },
+  "section10": {
+    "title": "X. HOW TO EXERCISE YOUR RIGHTS",
+    "intro": "To exercise your ARCO rights or submit any privacy inquiry:",
+    "send": "Send your request to: info@tecnoredmx.com.mx",
+    "include": "Include the following information:",
+    "items": [
+      "Full name and contact information",
+      "Clear description of your request",
+      "Documents proving your identity",
+      "If applicable, documents proving legal representation"
+    ],
+    "footer": "Response time: Maximum 20 business days"
+  },
+  "section11": {
+    "title": "XI. COOKIES AND SIMILAR TECHNOLOGIES",
+    "intro": "Our website uses cookies and similar technologies to:",
+    "items": [
+      "Improve site functionality",
+      "Analyze usage and performance",
+      "Personalize your experience",
+      "Remember your preferences"
+    ],
+    "footer": "You can configure your browser to reject cookies, although this may affect some site functionalities."
+  },
+  "section12": {
+    "title": "XII. MINORS",
+    "content": "We do not intentionally collect personal information from minors under 18 years of age. If we identify that we have collected data from a minor, we will delete it immediately."
+  },
+  "section13": {
+    "title": "XIII. CHANGES TO THIS POLICY",
+    "intro": "We may update this Privacy Policy occasionally. Significant changes will be notified through:",
+    "items": [
+      "Our website",
+      "During your next interaction with our services"
+    ],
+    "footer": "The date of the last update appears at the beginning of this document."
+  },
+  "section14": {
+    "title": "XIV. CONTROL AUTHORITY",
+    "intro": "If you consider that the processing of your personal data violates applicable legislation, you may file a complaint with the Secretaría Anticorrupción y Buen Gobierno (SABG), the authority that, as of March 21, 2025, assumed the functions of the former Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales (INAI) regarding personal data protection held by private parties.",
+    "website": "SABG: www.gob.mx/buengobierno"
+  },
+  "section15": {
+    "title": "XV. CONTACT",
+    "intro": "For any questions, comments or requests related to this Privacy Policy:",
+    "items": [
+      "Email: info@tecnoredmx.com.mx",
+      "Subject: Privacy Inquiry",
+      "Response: Within 5 business days"
+    ]
+  },
+  "footer1": "This Privacy Policy has been prepared in accordance with the Federal Law on Protection of Personal Data Held by Private Parties, its Regulations and the applicable Privacy Notice Guidelines in the United Mexican States.",
+  "footer2": "Effective: This policy becomes effective in September 2026."
+},
+"refund": {
+  "title": "Refund and Return Policy",
+  "company": "ARC DI TRIOMPHE TECHNOLOGIES, S.A. DE C.V.",
+  "website": "Website: tecnoredmx.com.mx",
+  "email": "Contact email: info@tecnoredmx.com.mx",
+  "address": "Address: Av. Río Consulado Circuito Interior, N°516, Office 102, Colonia Tlatilco, Alcaldía Azcapotzalco, C.P. 02860, Mexico City",
+  "intro1": "At SOFTLOGIC we value the trust our clients place in us and we work to offer services of the highest quality. We know that unforeseen situations may arise, which is why we have established this Refund and Cancellation Policy with the objective of providing clarity, transparency and security in every process.",
+  "intro2": "Here you will find the conditions under which cancellations, refunds and retentions proceed, as well as the rights and responsibilities of both the client and SOFTLOGIC. Our commitment is to address each request fairly and promptly, always respecting applicable legislation and fostering a long-term relationship of trust.",
+  "section1": {
+    "title": "1. Cancellation by the client",
+    "content": "The client may request cancellation of services at any time. In such cases:",
+    "items": [
+      "Refunds will be subject to analysis of the actual project progress and costs already incurred.",
+      "Work actually performed and partial deliverables may be invoiced or retained until any outstanding balance is settled.",
+      "Once the corresponding payments are released, the client will be entitled to receive the progress and documentation generated to date."
+    ]
+  },
+  "section2": {
+    "title": "2. Cancellation by SOFTLOGIC",
+    "content": "SOFTLOGIC may cancel the service in the event of:",
+    "items": [
+      "Payment default by the client.",
+      "Serious breach of contractual obligations assumed by the client.",
+      "Improper use of the platform or harm to third-party rights."
+    ],
+    "footer": "In these cases, deliverables will be retained until full settlement and no refunds will proceed for services already rendered."
+  },
+  "section3": {
+    "title": "3. Cancellation due to force majeure",
+    "content": "In the event of extraordinary events (natural disasters, health emergencies, massive infrastructure failures, acts of authority or other causes beyond the parties' control), SOFTLOGIC may temporarily suspend services without liability. If the impossibility of execution persists, either party may request definitive termination, resolving payments and deliverables proportionally to progress."
+  },
+  "section4": {
+    "title": "4. Non-refundable services",
+    "content": "The following will not be subject to refund:",
+    "items": [
+      "Third-party software licenses already acquired.",
+      "Domain, hosting or technology infrastructure services already consumed.",
+      "Consulting, analysis or advisory services previously rendered.",
+      "Third-party expenses previously authorized by the client."
+    ]
+  },
+  "section5": {
+    "title": "5. Procedure for requesting a refund",
+    "content": "All requests must be submitted in writing to info@tecnoredmx.com.mx and include:",
+    "items": [
+      "Client or company name.",
+      "Project or service contracted.",
+      "Reason for cancellation.",
+      "Supporting documentation, if applicable."
+    ],
+    "footer": "SOFTLOGIC will evaluate each request individually and will communicate the resolution to the client in writing within a maximum of 10 business days, detailing the authorized amount and the refund method."
+  },
+  "section6": {
+    "title": "6. Refund methods and timelines",
+    "content": "In case of approval, refunds may be made through:",
+    "items": [
+      "Reversal to the original payment method (credit/debit card or bank transfer). Crediting times depend exclusively on the banking institution or card issuer, and may vary between one and several billing cycles."
+    ]
+  },
+  "section7": {
+    "title": "7. Intellectual property and deliverables",
+    "content": "SOFTLOGIC will retain all rights over its own methodologies, processes and know-how. The client will acquire ownership of developments made specifically for their project once the corresponding total payment has been settled."
+  },
+  "section8": {
+    "title": "8. Policy modifications",
+    "content": "SOFTLOGIC reserves the right to modify this policy at any time. Updates will be permanently available on the website."
+  },
+  "section9": {
+    "title": "9. Legislation and jurisdiction",
+    "content": "This policy is governed by the applicable legislation in the United Mexican States. For any controversy, the parties submit to the competent courts of Mexico City, expressly waiving any other jurisdiction that may correspond to them."
   }
+}
 }
